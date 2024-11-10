@@ -41,11 +41,15 @@ a:hover {
   text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h3, h4, h5, h6{
   color: var(--heading-color);
   font-family: var(--heading-font);
 }
 
+h2 {
+  color:#F1EDE6;
+  font-family: var(--heading-font);
+}
 
 .header {
   --background-color: var(#3A2D28);
@@ -243,11 +247,11 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 40px;
+  width: 50px;
   height: 40px;
   border-radius: 50%;
   border: 1px solid color-mix(in srgb, var(#3A2D28), transparent 50%);
-  font-size: 16px;
+  font-size: 34px;
   color: color-mix(in srgb, var(#3A2D28), transparent 20%);
   margin-right: 10px;
   transition: 0.3s;

@@ -51,15 +51,13 @@
   <main class="main">
 
     
-    <section id="hero" class="hero section dark-background">
+    <section id="hero" class="hero" style="background-color:#756758;">
 
       <div class="container">
         <div class="row gy-4">
-          <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center" data-aos="zoom-out">
+          <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center" data-aos="zoom-out" style="color: #F1EDE6;">
             <h1>Hi there! 👋</h1>
             <h2>I am Shruti Natekar</h2></h2>
-            <div class="d-flex">
-            </div>
           </div>
           <div class="col-lg-6 order-1 order-lg-2 working" data-aos="zoom-out" data-aos-delay="200">
             <img src="assets/img/working.png" class="img-fluid animated" alt="Working Person">
@@ -68,16 +66,17 @@
       </div>
 
     </section>
-
-    <!-- About Section -->
+    
+    
     <section id="about" class="about section">
 
-      <!-- Section Title -->
+      
       <div class="container section-title" data-aos="fade-up">
-        <h2>About Me</h2>
-      </div><!-- End Section Title -->
-
-      <div class="container" style="">
+        <h1>About Me</h1>
+        <hr>
+      </div>
+     
+      <div class="container">
 
         <div class="row gy-4">
 
@@ -90,6 +89,9 @@
               <li><i class="bi bi-check2-circle"></i> <span>I am a member of the VLABs club of PVG COET</span></li>
               <li><i class="bi bi-check2-circle"></i> <span>I have N5 certification in JLPT.</span></li>
             </ul>
+            <a href="assets/Resume.pdf" download>
+              <button style="color: #F1EDE6; background: #756758; font-weight: 500; font-size: 15px; letter-spacing: 1px; padding: 10px 28px 12px 28px; border-radius: 5px; transition: 0.5s;">Download PDF</button>
+          </a>
           </div>
           <img src="assets/img/student.png" data-aos="fade-up" data-aos-delay="100" class="img-fluid animated" alt="student" style="width: 30%; height: auto; margin: auto;">
         </div>
@@ -99,7 +101,7 @@
 
     </section>
 
-    
+    <hr>
     <section id="skills" class="skills section">
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -188,20 +190,66 @@
 
     </section>
 
-  </main>
+    <hr>
 
+    <section id="services" class="services section light-background">      
+      <div class="container section-title" data-aos="fade-up">
+        <h2>My projects</h2>
+        <p>These are my projects: </p>
+      </div>
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-activity icon"></i></div>
+              <h4>Posture Correction Chair</h4>
+              <p>Detection of the spine's depth with an ultrasonic sensor using Arduino Uno and 
+                alerting users when their posture deviates. </p>
+              <p>
+                Technologies used: Arduino Uno
+              </p>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-hand-index-fill icon"></i></div>
+              <h4>Translation of Indian Sign Language(ISL)</h4>
+              <p>Converting provided image of Indian Sign Language into text</p>
+              <p>
+                Technologies used: PyTorch
+              </p>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-database-fill icon"></i></div>
+              <h4>Online Hospital Appointment System</h4>
+              <p>Creating a system which would help the patient take an appoint</p>
+              <p>
+                Technologies used: Django and MySQL
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+  </main>
+  <hr>
   <footer id="footer" class="footer" style="align-items: center;">
 
     <div class="container footer-top">
       <div class="row gy-4">
         <div class="col-lg-10 col-md-12">
           <h4>Find Me</h4>
-          <p>You can find me: </p>
+          <p>You can contact me: </p>
           <div class="social-links d-flex">
-            <a href=""><i class="bi bi-twitter-x"></i></a>
-            <a href=""><i class="bi bi-facebook"></i></a>
-            <a href=""><i class="bi bi-instagram"></i></a>
-            <a href=""><i class="bi bi-linkedin"></i></a>
+            <a href="mailto:snatekar03@gmail.com"><i class="bi bi-envelope"></i></a>            
+            <a href="https://www.linkedin.com/in/shruti-natekar-a013b228a/"><i class="bi bi-linkedin"></i></a>
+            <a href="https://github.com/Shrtti"><i class="bi bi-github"></i></a>
           </div>
         </div>
 
@@ -215,7 +263,6 @@
 
 
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
@@ -223,7 +270,7 @@
   <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
 
-  <script src="assets/js/main.js"></script>
+  <script src="assets/main.js"></script>
 
 </body>
 

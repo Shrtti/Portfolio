@@ -167,8 +167,8 @@
 
   function downloadPDF() {
     const link = document.createElement('a');
-    link.href = 'Resume.pdf'; // Replace with your PDF file's path
-    link.download = 'SN_Resume.pdf'; // Specify the file name for download
+    link.href = 'path/to/yourfile.pdf'; // Replace with your PDF file's path
+    link.download = 'yourfile.pdf'; // Specify the file name for download
     link.click();
   }
 
